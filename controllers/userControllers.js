@@ -43,7 +43,7 @@ const loginUser = async (req, res) => {
 
   //IF THE USER IS FOUND
 
-  const secretKey = "thisismysecretlalallalalalallalalla";
+  const secretKey = "secretkey";
    //the secretKey is a private password that only server knows to secure certain operations like encrypting data or verifying tokens
   const token = jwt.sign(
     {
